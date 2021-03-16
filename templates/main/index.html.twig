@@ -1,0 +1,107 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Portfolio
+{% endblock %}
+
+{% block body %}
+	<nav class="navbar navbar-expand-lg ">
+		<a class="navbar-brand" href="{{ path('home') }}"><img src="{{asset('build/logoGatoSith.png')}}" alt="logo"></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mx-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="{{ path('home') }}">Home
+						<span class="sr-only">(current)</span>
+					</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{{ path('cv') }}">CV</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Codes</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="{{ path('contact') }}">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<div class="container-fluid">
+		<div class="container py-3 my-5">
+			<div class="jumbotron bg-dark text-center">
+				<h1 class="display-4">Hello, world!</h1>
+				<p class="lead">Je vous présente mon Portfolio. Ici vous retrouverez toutes les informations me concernant ainsi qu'une partie de mes réalisations. Bonne visite!</p>
+				<hr class="my-4">
+				<p>N'oubliez pas de venir sur mes réseaux sociaux en lien dans la page des contacts.</p>
+			</div>
+		</div>
+
+		<div class="row py-5 my-5">
+			<div class="col-sm">
+				<div class="card bg-transparent mx-auto" style="max-width: 540px;">
+					<div class="row no-gutters">
+						<div class="col-md-4">
+							<img src="..." class="card-img" alt="...">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								<p class="card-text">
+									<small class="">Last updated 3 mins ago</small>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="card bg-transparent mx-auto" style="max-width: 540px;">
+					<div class="row no-gutters">
+						<div class="col-md-4 ">
+							<img src="..." class="card-img" alt="...">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								<p class="card-text">
+									<small class="">Last updated 3 mins ago</small>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="col-sm">
+				<div class="card bg-transparent mx-auto" style="max-width: 540px;">
+					<div class="row no-gutters">
+						<div class="col-md-4">
+							<img src="..." class="card-img" alt="...">
+						</div>
+						<div class="col-md-8">
+							<div class="card-body">
+								<h5 class="card-title">Card title</h5>
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+								<p class="card-text">
+									<small class="">Last updated 3 mins ago</small>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="container-fluid">
+		<p class="text-right mx-3 px-3">© Misterlynx - 2021</p>
+	</footer>
+
+{% endblock %}

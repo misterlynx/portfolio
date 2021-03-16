@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    background-image: url("http://image.noelshack.com/fichiers/2021/11/2/1615860734-359057.jpg");
+    color: antiquewhite;
+}
+.navbar a,
+.display-4,
+.card-title {
+    color: aquamarine;
+}
+.navbar-nav {
+    background: rgba(112, 128, 144, .5) !important;
+    border: aquamarine inset 1px;
+    box-shadow: 0 2px 15px 0 aqua inset;
+    border-radius: 10px;
+}
+
+.jumbotron, .card-body {
+    background: rgba(112, 128, 144, .5)!important;
+    border: inset 1px aquamarine;
+    box-shadow: 0 5px 45px 0 aqua inset;
+    border-radius: 10px;
+}
+
+
+#cv {
+    border: inset 1px aquamarine;
+    box-shadow: 0 5px 45px 0 aqua ;
+    border-radius: 10px;
+}
+
+.btn {
+    border: aquamarine inset 1px;
+    box-shadow: 0 2px 15px 0 aqua inset;
+    border-radius: 10px;
+}
+.btn:hover {
+    border: aquamarine inset 1px;
+    box-shadow: 0 2px 25px 0 aqua;
+    border-radius: 10px;
+}
+
+input {
+    border: none;
+    background: none;
+    border-bottom: 1px solid aqua;
+
+}
+input::placeholder{
+    color: teal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+input:focus {
+    outline: none;
+}
+
+
